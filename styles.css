@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;  
+}
+.navibar-item{
+    position: fixed;
+    background: white;
+}
+
+.nav-bar{
+    display: flex;
+    padding: 10px 40px;
+    background: rgba(227, 227, 227, 0.259);
+    
+}
+#snkrs{
+    margin-left: 25px;
+}
+
+header{
+    margin-left: 1010px;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.657);
+    margin-top: 3px;
+    cursor: pointer;
+    
+}   
+
+.opcoes{
+    padding: 10px;
+}
+
+span{
+    color: rgb(4, 4, 4);
+}
+
+#logo{
+    margin-left: 40px;
+    margin-top: 30px;
+    
+}
+
+.container{
+    display: flex;
+    margin-bottom: 50px;
+}
+.box-barra{
+    margin-left: 370px;
+    position: absolute;
+    margin-top: 25px;
+    display: flex;
+    
+}
+.barra-links{
+    font-size: 16px;
+    padding: 15px;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 400;
+    
+}
+
+input{
+    border: none;
+    width: 180px;
+    height: 40px;
+    border-radius: 20px;
+    background: rgba(227, 227, 227, 0.259);
+    padding: 10px 45px;
+    
+
+}
+input:hover{
+    background: rgba(227, 227, 227, 0.97);
+}
+
+input:focus{
+    outline: 0;
+}
+
+.navigation{
+    display: flex;
+    margin-left: 90px;
+    margin-top: 8px;
+}
+
+.magnifying{
+    margin-left: 19px;
+    margin-top: 5px;
+    z-index: 1;
+    cursor: pointer;
+    border-radius: 100%;
+    
+    width: 30px;
+    height: 30px;
+    padding-top: 4px;
+    padding-left: 8px;
+}
+.magnifying:hover{
+    background: rgb(245, 243, 243);
+}
+
+
+.botao-buscar{
+    position: absolute;
+    margin-left: 10px;
+    
+}
+
+.fa-bag-shopping{
+    margin-top: 13px;
+    margin-left: 160px;
+    width: 32px;
+    height: 32px;
+    padding-left: 8px;
+    padding-top: 15px;
+    cursor: pointer;
+    color: rgb(8, 8, 8);
+    
+}
+
+.fa-bag-shopping:hover{
+    border-radius: 100%;
+    background: rgba(227, 227, 227, 0.62);
+   
+}
+
+#imagem-principal{
+    width: 1340px;
+    margin-left: 40px;
+    margin-top: 150px;
+}
+
+button{
+    border: none;
+    width: 180px;
+    height: 40px;
+    border-radius: 20px;
+    background: black;
+    color: white;
+    padding: 10px 10px;
+    font-size: 14px;
+    margin-left:620px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+h2{
+    margin-left: 40px;
+    margin-top: 90px;
+    font-size: 30px;
+    font-weight: 400;
+}
+#imagem-promocao{
+    width: 1340px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+
+.botoes-rp{
+    display: flex;
+    margin-left: 400px;
+    
+}
+
+#botoes-oferta{
+    margin-left: 20px;
+    font-size: 15px;
+    cursor: pointer;
+    
+}
+
+h3{
+    margin-left: 40px;
+    margin-top: 90px;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+#imagem-verao{
+    width: 1340px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.botoes-verao{
+    display: flex;
+    margin-left: 520px;
+    
+}
+
+#botoes-vr{
+    margin-left: 20px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#membership{
+    width: 1340px;
+    margin-left: 40px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+h4{
+    margin-left: 40px;
+    margin-top: 90px;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+
+#myname{
+    color: #ffffff;
+    margin-left: 620px;
+    
+}
+.container-inferior{
+    margin-top: 70px;
+    width: 1422px;
+    height: 150px;
+    background: #020202;
+  
+}
+
+.fa-user{
+    margin-right: 20px;
+    border: 1px solid white;
+    color: rgb(246, 245, 248);
+    border-radius: 5px;
+}
